@@ -30,7 +30,7 @@ DEBUG = True
 
 import re
 
-CORS_ALLOWED_ORIGINS = []  # Leave this empty
+CORS_ALLOWED_ORIGINS = [ "http://localhost:5173",]  # Leave this empty
 
 CORS_ALLOW_ALL_ORIGINS = False
 
