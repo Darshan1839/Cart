@@ -54,7 +54,7 @@ INSTALLED_APPS = [
 ]
 
 
-ALLOWED_HOSTS = ['cart-wb5t.onrender.com']
+ALLOWED_HOSTS = ['cart-wb5t.onrender.com','localhost']
 MIDDLEWARE = [
      'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
